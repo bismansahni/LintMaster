@@ -1,0 +1,29 @@
+{
+  "name": "lintmaster",
+  "version": "1.0.0",
+  "description": "A lightweight ESLint-based tool to help developers identify and optimize JavaScript code.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint .",
+    "build": "echo 'No build step defined.'"
+  },
+  "keywords": ["lint", "eslint", "code-quality", "javascript"],
+  "author": "Bisman Sahni",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "overrides": {
+    "glob": "11.0.0"
+  }
+}
