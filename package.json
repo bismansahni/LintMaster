@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A lightweight ESLint-based tool to help developers identify and optimize JavaScript code.",
   "main": "index.js",
+  "bin": {
+    "lintmaster": "./index.js"
+  },
   "type": "module",
   "scripts": {
     "test": "mocha",
